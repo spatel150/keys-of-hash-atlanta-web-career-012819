@@ -3,6 +3,8 @@ class Hash
     new_arr = []
     self.each do |key, value|
       if arguments.include?(value)
-        
+        new_arr << key
+      end
+    end
   end
 end
